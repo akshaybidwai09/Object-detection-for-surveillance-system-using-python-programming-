@@ -13,9 +13,9 @@ ret, frame = cap.read()
 cv2.imwrite('C:\\Users\\HP\\Documents\\interfacing internet with python\\aks.jpg',frame)
 cv2.waitKey(0) & 0xff
 
-email_user = 'akshaybidwai1997@gmail.com'
+email_user = 'xxxxxx@gmail.com'
 email_password = 'zxcvbnm12345678'
-email_send ='akshaybidwai1997@gmail.com'
+email_send ='xxxxxxx@gmail.com'
 
 subject = 'subject'
 
@@ -51,7 +51,7 @@ subject1="python"
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-    to="+917774883049", 
+    to="enter owners number", 
     from_="+14159854342",
     body="person out of the door is criminal, be alert")
 
